@@ -23,3 +23,34 @@
 
 
 /* Add rules for the steps mentioned below */
+.section {
+    padding: 10px;
+}
+.item-name {
+    margin: 25px;
+    font-size: 12px;
+}
+.item-name .label {
+    font-weight: bold;
+}
+.item-name .description {
+    font-style: italic;
+    border-top: 2px solid #495E57;
+}
+b {
+    float: right;
+    margin-top: -15px;
+    color: darkcyan;
+}
+div > h3 {
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    color: #495E57;
+}
+.label + .low {
+    color: brown; 
+}
+div ~ div {
+    color: rgb(90, 90, 90);
+}
